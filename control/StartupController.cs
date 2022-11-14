@@ -1,6 +1,6 @@
 using System.Data.Common;
 using system;
-package Control;
+namespace Control;
 
 public class StartupController : Control 
 {

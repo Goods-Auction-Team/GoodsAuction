@@ -1,7 +1,7 @@
 using system;
 using entity.ItemList;
 
-public class MainMenu
+public class MainMenu 
 {
     private ItemList List;
     public void display(ItemList)
