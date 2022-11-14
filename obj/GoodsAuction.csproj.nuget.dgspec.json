@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj": {}
+    "C:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj": {}
   },
   "projects": {
-    "c:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj": {
+    "C:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj",
+        "projectUniqueName": "C:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj",
         "projectName": "GoodsAuction",
-        "projectPath": "c:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj",
+        "projectPath": "C:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj",
         "packagesPath": "C:\\Users\\joywi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\obj\\",
+        "outputPath": "C:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joywi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,16 +45,23 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

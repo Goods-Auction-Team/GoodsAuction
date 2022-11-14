@@ -6,7 +6,8 @@ namespace GoodsAuction
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           startController = new StartController(); //create the startcontroller
+           startController.initiate();
         }
     }
 }

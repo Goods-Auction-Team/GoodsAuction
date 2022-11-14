@@ -1,7 +1,9 @@
 using System;
+using entity.ItemList;
+
 public class AddItemForm : Form 
 {
-    private ItemList Item
+    private ItemList Item;
     public void addItem();
     {
 

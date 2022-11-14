@@ -1,3 +1,6 @@
+using system;
+using entity.ItemList;
+
 public class PlaceBidMenu : MainMenu
 {
     private ItemList Item;

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AccEL3YEYkUM67QelbTZR9Z7GG1wUA8NnsDqpu6zBUr7FjQdsz5hbJtxs+Z6YkSSvmEzgBjYgdD3a6B7C1ECDw==",
+  "dgSpecHash": "m5ksG/7ddGb4lVcz5n2Txo7UwhHKUHFqkzcfK0GknSw2XcjJfoWDK3yOVAtkYA7NfPjOjPYT55OzMS3x7iyT3g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\joywi\\OneDrive\\Documents\\GoodsAuction\\GoodsAuction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joywi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
