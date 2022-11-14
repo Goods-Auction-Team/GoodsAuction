@@ -14,7 +14,7 @@ public class DBConeect : Control
     }
     public Account getUser()
     {
-        return owner;
+        return username;
     }
     public void saveLogout()
 }

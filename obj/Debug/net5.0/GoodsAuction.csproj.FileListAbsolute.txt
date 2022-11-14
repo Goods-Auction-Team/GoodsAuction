@@ -1,0 +1,16 @@
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\bin\Debug\net5.0\GoodsAuction.exe
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\bin\Debug\net5.0\GoodsAuction.deps.json
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\bin\Debug\net5.0\GoodsAuction.runtimeconfig.json
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\bin\Debug\net5.0\GoodsAuction.runtimeconfig.dev.json
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\bin\Debug\net5.0\GoodsAuction.dll
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\bin\Debug\net5.0\ref\GoodsAuction.dll
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\bin\Debug\net5.0\GoodsAuction.pdb
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\obj\Debug\net5.0\GoodsAuction.csproj.AssemblyReference.cache
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\obj\Debug\net5.0\GoodsAuction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\obj\Debug\net5.0\GoodsAuction.AssemblyInfoInputs.cache
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\obj\Debug\net5.0\GoodsAuction.AssemblyInfo.cs
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\obj\Debug\net5.0\GoodsAuction.csproj.CoreCompileInputs.cache
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\obj\Debug\net5.0\GoodsAuction.dll
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\obj\Debug\net5.0\ref\GoodsAuction.dll
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\obj\Debug\net5.0\GoodsAuction.pdb
+C:\Users\joywi\OneDrive\Documents\GoodsAuction\obj\Debug\net5.0\GoodsAuction.genruntimeconfig.cache
