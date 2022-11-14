@@ -1,12 +1,4 @@
-using System;
-
-namespace GoodsAuction
+public class StartupController : Control 
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+    public void initiate();
 }
