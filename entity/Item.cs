@@ -14,59 +14,59 @@ public class item
 
     public int getItemID()
     {
-        return itemID;
+        return this.itemID;
     }
     public void setItemID(int itemID)
     {
-        this itemID = itemID;
+        this.itemID = itemID;
     }
     public string getItemName()
     {
-        return itemName;
+        return this.itemName;
     }
     public void setItemName(string itemName)
     {
-        this itemName = itemName;
+        this.itemName = itemName;
     }
     public string getItemDescription()
     {
-        return itemDescription;
+        return this.itemDescription;
     }
     public void setItemDescription(string itemDescription)
     {
-        this itemDescription = itemDescription;
+        this.itemDescription = itemDescription;
     }
     public float getStartingBid()
     {
-        return startingBid;
+        return this.startingBid;
     }
     public void setStartingBid(float startingBid)
     {
-        this startingBid = startingBid;
+        this.startingBid = startingBid;
     }
     public float getCurrentBid()
     {
-        return currentBid;
+        return this.currentBid;
     }
     public void setCurrentBid(float currentBid)
     {
-        this currentBid = currentBid;
+        this.currentBid = currentBid;
     }
     public DateTime getTimeRemaining()
     {
-        return timeRemaining; //Not sure if this is correct
+        return this.timeRemaining; //Not sure if this is correct
     }
     public void setTimeRemaining(DateTime timeRemaining)
     {
-        this timeRemaining = timeRemaining;
+        this.timeRemaining = timeRemaining;
     }
     public Account string getCurrentLeader();
     {
-        return username; //maybe??
+        return this.username; //maybe??
     }
     public void setCurrentLeader(string username)
     {
-        this username = username;
+        this.username = username;
     }
 
 }

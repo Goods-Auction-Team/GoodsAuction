@@ -1,6 +1,6 @@
 //not sure where to start here
 using System;
-namespace entity.Item;
+using entity.Item;
 
 public class ItemList;
 {
