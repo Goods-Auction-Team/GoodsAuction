@@ -1,19 +1,21 @@
-using system;
-using entity.ItemList;
+using GoodsAuction.Entity;
 
-public class PlaceBidMenu : MainMenu
+namespace GoodsAuction.Boundary
+{
+    public class PlaceBidMenu : MainMenu
 {
     private ItemList Item;
-    public void viewItem();
+    public void viewItem()
     {
 
     }
-    public void submit();
+    public void submit()
     {
 
     }
-    public void refresh(ItemList)
+    public void refresh(ItemList list)
     {
 
     }
+}
 }

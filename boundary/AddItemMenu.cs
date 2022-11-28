@@ -1,15 +1,17 @@
-using system;
-using entity.ItemList;
+using GoodsAuction.Entity;
 
-public class AddItemMenu : MainMenu
+namespace GoodsAuction.Boundary
+{
+    public class AddItemMenu : MainMenu
 {
     private ItemList Item;
-    public void select();
+    public void select()
     {
 
     }
-    public void refresh(ItemList)
+    public void refresh(ItemList list)
     {
 
     }
+}
 }

@@ -1,5 +1,12 @@
-using system;
-public class Form
+
+
+namespace GoodsAuction.Boundary
 {
-    public void close();
+    public class Form
+    {
+        public void close()
+        {
+
+        }
+    }
 }

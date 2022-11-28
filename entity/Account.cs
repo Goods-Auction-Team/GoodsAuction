@@ -1,18 +1,19 @@
 using System;
 
-public class Account
+namespace GoodsAuction.Entity
 {
-   private string username;
-   private string password;
-   private string lastLogout;
+    public class Account
+    {
+        private string username, password, lastLogout;
 
-   public string getUsername()
-   {
-        return username;
-   }
+        public string getUsername()
+        {
+            return username;
+        }
 
-   public string getPassword()
-   {
-        return password;
-   }
+        public string getPassword()
+        {
+            return password;
+        }
+    }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GoodsAuction.Control;
+using System;
 
 namespace GoodsAuction
 {
@@ -6,8 +7,8 @@ namespace GoodsAuction
     {
         static void Main(string[] args)
         {
-           startController = new StartController(); //create the startcontroller
-           startController.initiate();
+           StartupController s = new StartupController(); //create the startcontroller
+           s.initiate();
         }
     }
 }

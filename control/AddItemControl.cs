@@ -1,16 +1,17 @@
-using System.Security.AccessControl;
-using entity.Item;
+using GoodsAuction.Entity;
 
-
-public class AddItemControl : Control
+namespace GoodsAuction.Control
+{
+    public class AddItemControl : Controller
 {
     private Item Item; //not sure if this is correct
-    public void insertNewItem();
+    public void insertNewItem()
     {
         //code here
     }
-    public void submit(item);
+    public void submit(Item)
     {
         //code here
     }
+}
 }

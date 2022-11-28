@@ -1,11 +1,15 @@
 using System.Xml;
 using System.Reflection.Metadata;
-using entity.Item;
-namespace Control;
+using GoodsAuction.Entity;
 
-public class PlaceBidControl : Control 
+namespace GoodsAuction.Control
 {
-    private Item itemID;
-    public getItem(int itemID)
+    public class PlaceBidControl : Controller
+    {
+        private Item itemID;
+        public Item getItem(int itemID)
+        {
+            return null;
+        }
     }
 }

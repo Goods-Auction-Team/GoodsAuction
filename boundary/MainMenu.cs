@@ -1,15 +1,18 @@
-using system;
-using entity.ItemList;
 
-public class MainMenu 
+using GoodsAuction.Entity;
+
+namespace GoodsAuction.Boundary
 {
-    private ItemList List;
-    public void display(ItemList)
+    public class MainMenu
     {
+        private ItemList List;
+        public void display(ItemList list)
+        {
 
-    }
-    public void logout()
-    {
-        
+        }
+        public void logout()
+        {
+
+        }
     }
 }

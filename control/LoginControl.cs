@@ -1,19 +1,21 @@
-using System.Xml;
-using System.ComponentModel;
-using System;
-using System.Security.AccessControl;
-using entity.Account;
+using GoodsAuction.Entity;
 
-public class LoginControl : Control
+namespace GoodsAuction.Control
 {
-    private Account username;
-    public Boolean login(username, password)
-    {
-        //login
-    }
 
-    public Boolean validate(Account)
+    public class LoginControl : Controller
     {
+        private Account username;
+        public bool login(username, password)
+        {
+            //login
+            return false;
+        }
+
+        public bool validate(Account a)
+        {
         //test for validation of account
+        return false;
+        }
     }
 }

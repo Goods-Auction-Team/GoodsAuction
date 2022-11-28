@@ -1,20 +1,23 @@
 using System;
-using entity.ItemList;
+using GoodsAuction.Entity;
 
-public class AddItemForm : Form 
-{
-    private ItemList Item;
-    public void addItem();
+namespace GoodsAuction.Boundary {
+
+    public class AddItemForm : Form 
     {
+        private ItemList Item;
+        public void addItem()
+        {
+
+        }
+        public void close()
+        {
+
+        }
+        public void refresh(ItemList list)
+        {
+
+        }
 
     }
-    public void close();
-    {
-
-    }
-    public void refresh(ItemList)
-    {
-
-    }
-
 }

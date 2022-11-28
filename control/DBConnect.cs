@@ -1,11 +1,9 @@
 using System;
-using System.Globalization;
-using System.Security.AccessControl;
-using entity.Item;
-using entity.Account;
-using entity.ItemList;
+using GoodsAuction.Entity;
 
-public class DBConeect : Control
+namespace GoodsAuction.Control
+{
+    public class DBConeect : Controller
 {
     private Account user;
     private Item itemID;
@@ -47,4 +45,5 @@ public class DBConeect : Control
         //This is the addItem where the data is saved
     }
 
+}
 }

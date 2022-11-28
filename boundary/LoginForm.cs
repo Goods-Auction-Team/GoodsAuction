@@ -1,16 +1,18 @@
 using System;
-using system;
 
-public class LoginForm : Form
+namespace GoodsAuction.Boundary
+{
+    public class LoginForm : Form
 {
     private string error;
 
-    public void login();
+    public void login()
     {
 
     }
-    public string display(error)
+    public void display(string error)
     {
         
     }
+}
 }

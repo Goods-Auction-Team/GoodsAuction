@@ -1,19 +1,23 @@
 //not sure where to start here
 using System;
-using entity.Item;
+using System.Collections.Generic;
 
-public class ItemList;
+namespace GoodsAuction.Entity
 {
-    List<Item> itemList = new List<Item>();
-    
-    public void addItem(Item newItem)
-    {
-        itemList.Add(newItem);
-    }
 
-    public List<List> returnList()
+    public class ItemList
     {
-        return ItemList;
+        List<Item> itemList = new List<Item>();
+    
+        public void addItem(Item newItem)
+        {
+            itemList.Add(newItem);
+        }
+
+        public List<Item> returnList()
+        {
+            return itemList;
+        }
     }
 }
     

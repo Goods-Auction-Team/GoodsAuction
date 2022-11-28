@@ -1,32 +1,32 @@
-using System.Diagnostics;
-using system;
-using boundry.Form;
-package Control;
+using System.Collections.Generic;
+using GoodsAuction.Boundary;
 
-public class Control
+namespace GoodsAuction.Control
 {
-	ArrayList<Form> formList;
-	
-	public Controller()
-	{
-		 formList = new ArrayList<Form>();
-	}
-	
-	public void addForm(Form form) {
-		formList.add(form);
-	}
-	
-	//this method will return a desired form type from the list of forms
-	public Form getForm(Object type) {
-		
-		Form form = null;
-		
-		for(int i = 0; i < formList.size(); i++)
+
+		public class Controller
 		{
-		    if(formList.get(i).getClass() == type.getClass());
-		    	form = formList.get(i);
+			List<Form> formList;
+
+			public Controller()
+			{
+				formList = new List<Form>();
+			}
+
+			public void addForm(Form form)
+			{
+				formList.Add(form);
+			}
+
+        //this method will return a desired form type from the list of forms
+        //ex: getForm(form.GetType());
+        public Form getForm(System.Type t)
+			{
+				foreach (Form f in formList)
+					if (f.GetType().Equals(t))
+						return f;
+
+				return null;
+			}
 		}
-		
-		return form;
-	}
 }

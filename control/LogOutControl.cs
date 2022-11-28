@@ -1,13 +1,15 @@
-using System.Security.AccessControl;
-using entity.Account;
+using GoodsAuction.Entity;
 
-public class LogOutControl : Control
+namespace GoodsAuction.Control
+{
+    public class LogOutControl : Controller
 {
     private Account username;
 
-    public void logout(username);
+    public void Logout()
     {
         //code here
     }
 
+}
 }
